@@ -1,25 +1,12 @@
 import './Hero.css'
 import Item from '../Item/Item'
 import Button from '../Button/Button'
-import { useState, useEffect } from 'react'
-import data from '../../Api/Data.json'
 
 
-const Hero = () => {
+const Hero = ({Data, viewData, deleteData}) => {
 
 
-  const [Data, setData] = useState(data)
-  const deleteData = () => { 
-    setData([]) 
-  }
-  const viewData = () => { 
-    setData((data)) 
-  }
 
-  useEffect(() => {
-    deleteData()
-  }, [])
-  
 
   return (
     <>
