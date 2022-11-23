@@ -1,5 +1,6 @@
 {
   "name": "dates-reminder",
+  "homepage": "https://github.com/MuhammadMagdy7/dates-reminder.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
